@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Chatterino/chatterino2/master/docs/plugin-info.schema.json",
+  "name": "Custom Spam",
+  "description": "For moderators: saves a trigger and a message; typing the trigger with a number (e.g. !tg 10) sends the message that many times. Configure with /custom-spam help.",
+  "authors": ["w0ntx"],
+  "homepage": "https://github.com/PavloProkopenko/chatterino-moderation-custom-spam",
+  "tags": ["moderation", "chat", "utility"],
+  "version": "0.1.0",
+  "license": "MIT",
+  "permissions": [
+    { "type": "FilesystemRead" },
+    { "type": "FilesystemWrite" }
+  ]
+}
